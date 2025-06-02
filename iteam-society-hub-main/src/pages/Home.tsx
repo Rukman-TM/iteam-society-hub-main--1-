@@ -40,12 +40,17 @@ const Home = () => {
                 </Button>
               </div>
             </div>
-            <div className="flex justify-center">
-              <img
-                src="/iteam-logo.svg"
-                alt="I-Team Society Logo"
-                className="w-64 h-64"
-              />
+            <div className="flex justify-center items-center h-full w-full">
+              <video
+                className="w-full h-full object-cover rounded-[50px] shadow-lg"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+              <source src="/rk.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
@@ -169,10 +174,16 @@ const Home = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Event Card 1 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-48 bg-gray-200"></div>
+           <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="h-48 bg-gray-200">
+                <img
+                  src="/past/web.png"
+                  alt="Web Development Workshop"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">May 15, 2025</div>
+                <div className="text-sm text-gray-500 mb-2">Jun 11, 2025</div>
                 <h3 className="text-xl font-semibold mb-2">
                   Web Development Workshop
                 </h3>
@@ -190,10 +201,16 @@ const Home = () => {
             </div>
 
             {/* Event Card 2 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-48 bg-gray-200"></div>
+           <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="h-48 bg-gray-200">
+                <img
+                  src="/past/carer.png"
+                  alt="Career Fair"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">June 5, 2025</div>
+                <div className="text-sm text-gray-500 mb-2">Aug 5, 2025</div>
                 <h3 className="text-xl font-semibold mb-2">Tech Career Fair</h3>
                 <p className="text-gray-600 mb-4">
                   Connect with top employers and discover career opportunities
@@ -211,9 +228,15 @@ const Home = () => {
 
             {/* Event Card 3 */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-48 bg-gray-200"></div>
+              <div className="h-48 bg-gray-200">
+                <img
+                  src="/past/anual.png"
+                  alt="Career Fair"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">July 10, 2025</div>
+                <div className="text-sm text-gray-500 mb-2">Dec 10, 2025</div>
                 <h3 className="text-xl font-semibold mb-2">Annual Hackathon</h3>
                 <p className="text-gray-600 mb-4">
                   Showcase your skills and creativity in our 24-hour coding

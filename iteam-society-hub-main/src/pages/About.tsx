@@ -5,49 +5,51 @@ import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   const staffMembers = [
     {
-      name: "Dr. Sarah Johnson",
+      name: "Prashani Thirumal",
       position: "President",
-      image: "/placeholder.svg",
+      image: "/prasha.png",
       description: "Leading the society with innovation and vision",
     },
     {
-      name: "Prof. Michael Chen",
-      position: "Vice President",
-      image: "/placeholder.svg",
-      description: "Coordinating academic and technical activities",
-    },
-    {
-      name: "Dr. Emily Rodriguez",
+      name: "Mohamed Rukman",
       position: "Secretary",
-      image: "/placeholder.svg",
-      description: "Managing communications and documentation",
+      image: "/rukman.png",
+      description: "Manages communications, documentation, coordination, and support",
     },
     {
-      name: "Mr. David Kumar",
+      name: "Udesh Hashara",
       position: "Treasurer",
-      image: "/placeholder.svg",
+      image: "/udesh.png",
       description: "Overseeing financial operations and budgets",
     },
     {
-      name: "Ms. Lisa Thompson",
+      name: "Tharanga Thanthrige",
       position: "Event Coordinator",
-      image: "/placeholder.svg",
+      image: "/thara.png",
       description: "Organizing workshops and networking events",
+    },
+    {
+      name: "Vidushan Krishan",
+      position: "Technical Officer",
+      image: "/vidhu.png",
+      description: "Skilled Technical Officer supporting all operations",
     },
   ];
 
   const statistics = [
-    { label: "Active Students", value: "200+", color: "bg-blue-500" },
+    { label: "Active Students", value: "650+", color: "bg-blue-500" },
     { label: "Faculty Staff", value: "50+", color: "bg-green-500" },
     { label: "Events Completed", value: "20+", color: "bg-purple-500" },
     { label: "Years Active", value: "5+", color: "bg-orange-500" },
   ];
 
   const eventImages = [
-    { title: "Tech Workshop 2024", image: "/placeholder.svg" },
-    { title: "Annual Hackathon", image: "/placeholder.svg" },
-    { title: "Career Fair", image: "/placeholder.svg" },
-    { title: "Innovation Summit", image: "/placeholder.svg" },
+    { title: "Inauguration of the i-Team", image: "/past/Inauguratio.jpg" },
+    { title: "Evolution of Ai", image: "/past/AI.jpg" },
+    { title: "Introduction to GIS", image: "/past/GIS.jpg" },
+    { title: "Cloud Platforms for Innovative Services", image: "/past/cloud.jpg" },
+    { title: "Short Film Lecture and Competition", image: "/past/Short.jpg" },
+    { title: "Dive Into The IT World", image: "/past/Webinar Series.png" }
   ];
 
   return (
@@ -61,8 +63,8 @@ const About = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             The I-Team Society is a vibrant student-led community under the
             Faculty of Natural Sciences, Department of Computer Science at The
-            Open University of Sri Lanka. It connects students through
-            university events, tech workshops, and innovation-driven activities.
+            Open University of Sri Lanka.<br /> It connects students through
+            university events, tech workshops, and <br /> innovation-driven activities.
           </p>
         </div>
       </section>
@@ -78,7 +80,7 @@ const About = () => {
               <p className="text-gray-600 mb-6">
                 The I-Team Society helps students build skills beyond the
                 classroom, network with peers and industry experts, and stay
-                updated with the latest in technology — shaping a stronger,
+                updated with the latest in technology  shaping a stronger,
                 smarter university community.
               </p>
               <p className="text-gray-600">
@@ -88,14 +90,16 @@ const About = () => {
                 our members for successful careers in the digital age.
               </p>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center" >
               <img
-                src="/iteam-logo.svg"
+                src="/team.png"
                 alt="I-Team Society"
                 className="w-64 h-64"
               />
             </div>
+            
           </div>
+          
         </div>
       </section>
 
@@ -183,7 +187,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-center text-iteam-primary mb-12">
             Our Events
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {eventImages.map((event, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="h-48 bg-gray-200">

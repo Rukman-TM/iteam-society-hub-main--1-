@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-3">
                     <p className="text-sm font-medium text-gray-900">Phone</p>
-                    <p className="text-sm text-gray-500">+94 11 1234567</p>
+                    <p className="text-sm text-gray-500">+94 11 288 1000</p>
                   </div>
                 </div>
 
@@ -71,11 +71,7 @@ const Contact = () => {
                   <div className="ml-3">
                     <p className="text-sm font-medium text-gray-900">Address</p>
                     <p className="text-sm text-gray-500">
-                      The Open University of Sri Lanka
-                      <br />
-                      Nawala, Nugegoda
-                      <br />
-                      Sri Lanka
+                     PO Box 21, The Open University of Sri Lanka, Nawala, Nugegoda.
                     </p>
                   </div>
                 </div>

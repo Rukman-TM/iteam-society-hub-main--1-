@@ -27,8 +27,8 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img
-                className="h-8 w-8"
-                src="/iteam-logo.svg"
+                 className="h-8 w-8"
+                src="/team.png"
                 alt="I-Team Logo"
               />
               <span className="ml-2 text-xl font-bold text-iteam-primary">

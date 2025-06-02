@@ -59,17 +59,17 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Phone size={16} className="mr-2" />
-                <span className="text-sm">+94 11 1234567</span>
+                <span className="text-sm">+94 11 288 1000</span>
               </div>
               <div className="flex items-center">
                 <MapPin size={16} className="mr-2" />
                 <span className="text-sm">
-                  The Open University of Sri Lanka, Nawala, Nugegoda
+                  PO Box 21, The Open University of Sri Lanka, Nawala, Nugegoda.
                 </span>
               </div>
               <div className="flex items-center mt-4 space-x-4">
                 <a 
-                  href="https://facebook.com" 
+                  href="https://ou.ac.lk/society/iteam/"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-gray-300"
@@ -77,7 +77,7 @@ const Footer = () => {
                   <Facebook size={20} />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                   href="https://ou.ac.lk/society/iteam/"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-gray-300"
@@ -91,7 +91,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800">
           <p className="text-center text-sm">
-            © I-Team Society {new Date().getFullYear()}. All rights reserved.
+            © I-Team Society 21/22 Batch,  {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>
       </div>
